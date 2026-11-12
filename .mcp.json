@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "financial-analyst-local": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "python",
+        "src/mcp_financial_analyst/mcp_server.py"
+      ],
+      "tools": [
+        "analyse_finances"
+      ]
+    }
+  }
+}
